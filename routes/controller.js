@@ -1,10 +1,12 @@
 const InfinitoApi = require('node-infinito-api');
+const {API_KEY, SECRET, BASE_URL, LOG_LEVEL, VERSION} = require('./config');
+
 const opts = {
-     apiKey: '68b2fa19-c920-4315-96d3-8d883f330d86',
-     secret: 'etzz6w9UdsjWBA4NJtV46W6sckwhuGQruSqHWVarggHU7vU7Ldv509qLuGdUKHe3',
-     baseUrl: 'https://staging-api-testnet.infinitowallet.io',
-     logLevel: 'NONE',
-     version: v1
+     apiKey: API_KEY,
+     secret: SECRET,
+     baseUrl: BASE_URL,
+     logLevel: LOG_LEVEL,
+     version: VERSION
  };
 const api = new InfinitoApi(opts);
 const coinAPI = api.BTC;
