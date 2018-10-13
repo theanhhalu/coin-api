@@ -1,0 +1,21 @@
+{
+  "name": "dat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "node-infinito-api": "git+https://github.com/infinityblockchainlabs/node-infinito-api.git",
+    "node-libs-browser": "^2.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.1.0",
+    "nodemon": "^1.18.4"
+  }
+}
